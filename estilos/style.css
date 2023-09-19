@@ -10,7 +10,10 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #f1e5d1, #d0a96e);
+    background-image: url('../imagens/tibia-wallpaper.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main{
@@ -27,16 +30,16 @@ section#teladelogin{
     height: 400px;
     border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    opacity: 90%;
 }
 
 div#formulario{
-    margin: 0px;
+    display: block;
     text-align: center;
-    
 }
 
 p#p1{
@@ -44,18 +47,20 @@ p#p1{
 }
 
 form > p, h2{
-    margin: 10px;
+    padding: 10px;
     color: #5a2800;
 }
 
 div#imagem{
-    height: 175px;
     position: relative;
-    top: 5.2%;
-    background-image: url('../imagens/tibia-wallpaper.jpg');
+    display: block;
+    height: 175px;
+    top: -4%;
+    background-image: url('../imagens/jumento.gif');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150px;
+    opacity: 90%;
 }
 
 input#usuario{
