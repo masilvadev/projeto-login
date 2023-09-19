@@ -12,16 +12,15 @@
         <section id="teladelogin">
             <div id="formulario">
                 <h2>Login</h2>
-                <form action="character.html" method="post">
+                <form action="paginas-extras/character.html" method="post">
                     <p id="p1">Seja bem-vindo(a). Faça o login para acessar sua conta</p>
                     <p><label for="usuario">Usuário:</label>
-                        <input type="text" name="usuario" id="usuario" minlength="5" maxlength="15" max="30"></p>
+                        <input type="text" name="usuario" id="usuario" minlength="3" maxlength="15" required></p>
                     <p><label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha"></p>
+                        <input type="password" name="senha" id="senha" minlength="3" maxlength="15" required></p>
                     <p>
                         <input type="submit" class="botao" id="entrar" value="Entrar">
-                        <input type="reset" class="botao" id="esquecisenha" value="Esqueci a senha">
-                    </p>
+                        <input type="reset" class="botao" id="esquecisenha" value="Esqueci a senha"></p>
                 </form>
             </div>
             <div id="imagem">

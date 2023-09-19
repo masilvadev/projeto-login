@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+}
+
+table{
+    position: relative;
+    width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+
+th{
+    background-color: lightgray;
+    border: solid 1px black;
+    text-align: center;
+    padding: 5px;
+
+}
+
+td{
+    border: solid 1px black;
+    text-align: center;
+    padding: 5px;}
