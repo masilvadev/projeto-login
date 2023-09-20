@@ -24,7 +24,7 @@ main{
 
 section#teladelogin{
     border: 5px solid #DEBB9D;
-    box-shadow: 0px 0px 0px #3a3738b6, 0px 0px 2px 2px #5a2800;
+    box-shadow: 0px 0px 2px 2px #5a2800;
     background-color: #FDEED7;
     width: 300px;
     height: 400px;
@@ -60,45 +60,48 @@ div#imagem{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 130px;
-    opacity: 90%;
 }
 
 input#usuario{
     padding: 2px;
-    border: 1px solid #3a3738;
+    border: 2px solid #3a3738;
 }
 
 input#senha{
     padding: 2px;
     margin-left: 9px;
-    border: 1px solid #3a3738;
+    border: 2px solid #3a3738;
 }
 
 .botao{
     background-color: #1619d4;
     color: #fec97a	;
-    padding: 3px;
+    padding: 4px;
     margin-top: 10px;
     font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: -1px 1px 1px black;
+    border: none;
 } 
 
 input#entrar{
     margin-right: 5px;
-    box-shadow: -1px 1px 1px black;
 }
 
 input#esquecisenha{
     margin-left: 5px;
-    box-shadow: -1px 1px 1px black;
 }
 
 input#entrar:hover{
     background-color: #1954FF;
     box-shadow: inset -1px 1px 1px black;
-    font-size: 13px;
+    transform: translate(1px, 1px);
+    cursor: pointer;
 }
 
 input#esquecisenha:hover{
     background-color: #1954FF;
     box-shadow: inset -1px 1px 1px black;
+    transform: translate(1px, 1px);
+    cursor: pointer;
 }
