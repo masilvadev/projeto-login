@@ -54,8 +54,8 @@ form > p, h2{
 div#imagem{
     position: relative;
     display: block;
-    height: 175px;
-    top: -4%;
+    height: 130px;
+    top: 5%;
     background-image: url('../imagens/jumento.gif');
     background-position: center center;
     background-repeat: no-repeat;
@@ -77,28 +77,23 @@ a{
     position: relative;
     display: inline-block;
     background-color: #1619d4;
-    color: #fec97a	;
-    padding: 2px;
+    color: #fec97a;
+    width: fit-content;
+    padding: 4px;
+    font-size: 0.9em;
     font-weight: bolder;
+    text-decoration: none;
     border-radius: 5px;
     box-shadow: -1px 1px 1px black;
-    text-decoration: none;
-    font-size: 0.9em;
-     margin-top: 5px;
-} 
+}
 
 a:hover{
-    background-color: #1954FF;
-    box-shadow: inset -1px 1px 1px black;
     transform: translate(1px, 1px);
     cursor: pointer;
-   
+    box-shadow: inset -1px 1px 1px black;
 }
 
-a#entrar{
-    margin-right: 7px;
-}
-
-a#esqueciasenha{
-    margin-left: 7px;
+p#ultimop{
+    text-align: center;
+    margin-top: 15px;
 }
