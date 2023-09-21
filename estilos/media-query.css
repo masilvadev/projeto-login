@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    section#teladelogin{
+        width: 430px;
+        height: 330px;
+    }
+    div#formulario{
+        float: left;
+        width: 260px;
+        height: 200px;
+    }
+    div#imagem{
+        background-image: url('../imagens/tibia-demon.gif');
+        position: absolute;
+        text-align: center;
+        float: right;
+        width: 140px;
+        height: 200px;
+        top: 20%;
+        left: 63%;
+    }
+    p#ultimop{
+        margin-left: 15px;
+    }
+}

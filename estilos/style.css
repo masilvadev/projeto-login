@@ -30,7 +30,7 @@ section#teladelogin{
     height: 400px;
     border-radius: 20px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -52,10 +52,9 @@ form > p, h2{
 }
 
 div#imagem{
-    position: relative;
     display: block;
     height: 130px;
-    top: 5%;
+    top: 1%;
     background-image: url('../imagens/jumento.gif');
     background-position: center center;
     background-repeat: no-repeat;
@@ -75,11 +74,11 @@ input#senha{
 
 a{
     position: relative;
-    display: inline-block;
     background-color: #1619d4;
     color: #fec97a;
     width: fit-content;
     padding: 4px;
+    margin: 5px;
     font-size: 0.9em;
     font-weight: bolder;
     text-decoration: none;
@@ -94,6 +93,8 @@ a:hover{
 }
 
 p#ultimop{
+    display: block;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 8px;
+
 }
