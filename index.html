@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css" media="all">
 </head>
@@ -14,17 +15,22 @@
                 <h2>Login</h2>
                 <form method="post">
                     <p id="p1">Seja bem-vindo(a). Faça o login para acessar sua conta</p>
-                    <p><label for="usuario">Usuário:</label>
-                        <input type="text" name="usuario" id="usuario" minlength="3" maxlength="15" required></p>
-                    <p><label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha" minlength="3" maxlength="15" required></p>
-                    <p id="ultimop">
+                    <p class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="text" name="usuario" minlength="3" maxlength="15" required>
+                        <label for="usuario">Usuário:</label>
+                    </p>
+                    <p class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" minlength="3" maxlength="15" required>
+                        <label for="senha">Senha:</label>
+                    </p>
+                    <p id="dosbotoes">
                         <a href="paginas-extras/character.html">Entrar</a>
                         <a href="#">Esqueci a senha</a>
                     </p>
                 </form>
             </div>
-          
             <div id="imagem">
             </div>
             

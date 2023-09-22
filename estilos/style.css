@@ -28,6 +28,7 @@ section#teladelogin{
     background-color: #FDEED7;
     width: 300px;
     height: 400px;
+    padding: 7px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -51,25 +52,34 @@ form > p, h2{
     color: #5a2800;
 }
 
-div#imagem{
+p.campo > label{
+    display: none;
+}
+
+span{
+    font-size: 50px;
+    transform: translateY(20%);
+}
+
+p.campo{
+    background-color: #d4bfa189;
     display: block;
-    height: 130px;
-    top: 1%;
-    background-image: url('../imagens/jumento.gif');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 130px;
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;
+    padding: 0px;
+    border-radius: 8px;
 }
 
-input#usuario{
-    padding: 2px;
+input{
+    background-color: #f8f6f4f6;
+    width: calc(100% - 37px);
+    height: 30px;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 8px;
     border: 2px solid #3a3738;
-}
-
-input#senha{
-    padding: 2px;
-    margin-left: 9px;
-    border: 2px solid #3a3738;
+    transform: translateY(1%);
 }
 
 a{
@@ -92,9 +102,18 @@ a:hover{
     box-shadow: inset -1px 1px 1px black;
 }
 
-p#ultimop{
+p#dosbotoes{
     display: block;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 15px;
 
+}
+
+div#imagem{
+    display: block;
+    height: 110px;
+    background-image: url('../imagens/jumento.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 130px;
 }
